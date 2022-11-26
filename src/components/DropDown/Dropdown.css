@@ -1,0 +1,54 @@
+.resourcesContainer {
+    position: relative;
+    width: 115px;
+}
+
+.auditContainer {
+    position: relative;
+    width: 137px;
+}
+
+.btn {
+    border: none;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    padding: 8px 18px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 100%;
+}
+
+.btn:hover {
+    background-color: transparent;
+}
+
+.itemsContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(5, 5, 66);
+    color: #fff;
+    width: 200px;
+    position: absolute;
+    top: 35px;
+}
+
+.item {
+    cursor: pointer;
+    transform: 0.3s;
+    padding: 12px;
+}
+
+.item:hover {
+    background-color: rgb(76, 190, 239);
+}
+
+@media screen and (max-width: 960px) {
+    .btn:hover {
+        color: #09bef0;
+    }
+
+    .itemsContainer {
+        position: absolute;
+        top: 30px;
+    }
+}
